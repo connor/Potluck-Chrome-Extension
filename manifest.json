@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon_toolbar.png",
+      "default_title": "Potluck it on Potluck"
+   },
+   "description": "Potluck for Google Chrome",
+   "icons": {
+      "128": "icon_128.png",
+      "48": "icon_48.png",
+      "16": "icon_16.png"
+   },
+   "manifest_version": 2,
+   "name": "Potluck",
+   "permissions": [ "tabs", "*://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
